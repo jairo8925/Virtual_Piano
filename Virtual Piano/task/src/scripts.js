@@ -1,10 +1,8 @@
 document.addEventListener("keydown", function(event) {
-    if (event.code === "KeyA") console.log("The 'A' key was pressed.");
-    else if (event.code === "KeyS") console.log("The 'S' key was pressed.");
-    else if (event.code === "KeyD") console.log("The 'D' key was pressed.");
-    else if (event.code === "KeyF") console.log("The 'F' key was pressed.");
-    else if (event.code === "KeyG") console.log("The 'G' key was pressed.");
-    else if (event.code === "KeyH") console.log("The 'H' key was pressed.");
-    else if (event.code === "KeyJ") console.log("The 'J' key was pressed.");
-    else console.log("Warning. Some other key is pressed!")
+    const pianoCodes = ["KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ"];
+    if (pianoCodes.includes(event.code)) {
+        console.log(`The '${event.key}' key is pressed.`);
+    } else {
+        console.log(`Warning. The key '${event.key}' is pressed.`);
+    }
 });
