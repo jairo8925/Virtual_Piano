@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    background-color: skyblue;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+kbd {
+    align-content: center;
+    font-size: 18pt;
+    background-color: white;
+    border: 3px solid gray;
+    padding: 150px 30px 60px 30px;
+}
