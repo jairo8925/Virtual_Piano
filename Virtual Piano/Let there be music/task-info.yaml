@@ -391,6 +391,30 @@ files:
         else console.log("Warning. Some other key is pressed!")
     });
   learner_created: true
+- name: src/white_keys/A.mp3
+  visible: true
+  learner_created: true
+- name: src/white_keys/D.mp3
+  visible: true
+  learner_created: true
+- name: src/white_keys/F.mp3
+  visible: true
+  learner_created: true
+- name: src/white_keys/G.mp3
+  visible: true
+  learner_created: true
+- name: src/white_keys/H.mp3
+  visible: true
+  learner_created: true
+- name: src/white_keys/J.mp3
+  visible: true
+  learner_created: true
+- name: src/white_keys/S.mp3
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/101/stages/559/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 06 Jul 2021 09:16:34 UTC
 record: 4
