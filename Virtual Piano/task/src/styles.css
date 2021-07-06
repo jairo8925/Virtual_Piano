@@ -1,19 +1,54 @@
 html, body {
-    height: 100%;
     background-color: skyblue;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    width: max-content;
+    margin: 15% auto;
 }
 
-kbd {
-    align-content: center;
+.white-keys kbd {
+    display: inline-block;
     font-size: 18pt;
     background-color: white;
     border: 3px solid gray;
-    padding: 150px 30px 60px 30px;
+    padding: 180px 30px 60px 30px;
+    margin: -3px;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    font-size: 18pt;
+    color: white;
+    background-color: black;
+    padding: 85px 18px 50px 18px;
+    margin: -3px;
+}
+
+.black-keys {
+    position: absolute;
+    top: 0;
+}
+
+.black-keys kbd:nth-child(1) {
+    margin-left: 3.1rem;
+}
+
+.black-keys kbd:nth-child(2) {
+    margin-left: 1.8rem;
+}
+
+.black-keys kbd:nth-child(3) {
+    margin-left: 6.4rem;
+}
+
+.black-keys kbd:nth-child(4) {
+    margin-left: 1.7rem;
+}
+
+.black-keys kbd:nth-child(5) {
+    margin-left: 1.7rem;
 }
